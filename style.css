@@ -426,7 +426,7 @@ width: 100%;
     background-origin: padding-box;
 }
 .join-section {
-  background: url('/assets/news-letter-bg.png') no-repeat center center/cover;
+  background: url('./assets/news-letter-bg.png') no-repeat center center/cover;
   padding: 80px 20px;
   color: white;
   text-align: center;
