@@ -236,6 +236,60 @@ body {
     font-size: 1.5rem;
   }
 }
+.lover-section {
+  background-color: #f3f6fb;
+  padding: 60px 20px;
+}
+
+.lover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.lover-image img {
+  max-width: 480px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.lover-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.lover-content h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lover-content ul {
+  padding-left: 20px;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .lover-container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .lover-content {
+    padding-top: 20px;
+  }
+}
+
+
 
 
 
